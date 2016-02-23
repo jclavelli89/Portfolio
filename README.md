@@ -8,6 +8,7 @@ Check out my LinkedIn and my blog to learn more about me.
 #### HTML & CSS
 * [HTML & CSS  Examples](./HTML-CSS)
 * [CSS Login Drill](./HTML-CSS/CSS-Login-Drill)
+* [Travel-Site](./HTML-CSS/Travel-Site)
 
 #### Database & SQL
 * [Database & SQL Examples](./Database-SQL)
