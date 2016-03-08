@@ -1,0 +1,165 @@
+﻿
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { 
+margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; 
+}
+
+body {
+    /*font-family: Helvetica, sans-serif;*/
+    /* line-height: 1.5; */
+    color: #ffffff;
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100%;
+    background-color: #0C3D66;
+}
+
+/* Begin Main Container 
+================================= */
+.main-wrapper {
+    width: 100%; /* Container for Entire Page */
+    height: 100%;
+}
+/* End Main Container 
+================================= */
+
+/* Begin Top Menunav 
+================================= */
+#menu-nav-bar {
+    width: 100%;
+    background-color: #01ACE2; /*Container for Top Navbar*/
+    padding: 0;
+    margin: 0;
+}
+
+#menunav {     /*Top Navbar*/
+    padding: 0;
+    z-index: 30;
+    width: 400px;
+    margin:0 auto;
+}
+
+#menunav li {   
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    font: bold 20px;  /*Menu Button Face Font*/
+    font-family: Georgia, serif, Helvetica, sans-serif;
+}
+
+#menunav li a {   
+    display: block;
+    margin: 0 1px 0 0;
+    padding: 4px 10px;
+    width: 100px;
+    background: #72D1ED; /*Menu Button Face*/
+    color: #FFFFFF; /*Menu Button Face Font Color*/
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menunav li a:hover {   
+    background: #01ACE2; /*Menu Button Face Hover-over Color*/
+}
+
+#menunav div {   
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    background: #01ACE2; /*Inactive Menu Dropdown Background Color*/
+    border: .2px solid #505050; /*Border of the dropdown menu*/
+}
+
+#menunav div a {   
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 5px 25px;
+    width: auto;
+    white-space: nowrap;
+    text-align: left;
+    text-decoration: none;
+    background: #01ACE2; /*Menu Dropdown Background Color*/
+    color: #FFFFFF; /*Menu Dropdown Font Color*/
+    font: bold 11px arial;
+    text-transform: uppercase;
+}
+
+#menunav div a:hover {   
+    background: #000000; /*Menu Dropdown Hover-over Background Color*/
+    color: #909090; /*Menu Dropdown Font Color*/
+    font: bold 11px arial;
+    padding: 5px 25px;
+}
+
+/* End Top Menunav 
+================================= */
+
+/* Begin Main Body 
+================================= */
+.main-bg{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #0C3D66;
+}
+
+.main-bg h1 {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 0;
+    padding: 1%;
+    text-transform: uppercase;
+    font-family: Vollkorn, cursive, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px C4CBB7; /*horizontal shadow, verticle shadow, blur, & color*/
+    color: #002131;
+}
+
+.main-bg h2 {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: Vollkorn, cursive, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px C4CBB7;
+    color: #002131;
+}
+
+.quote {
+    display: block;
+    font-family: Vollkorn;
+    text-shadow: 2px 2px 5px C4CBB7;
+    color: 002131;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto; /*Makes sure that the image resizes to the viewport*/
+    margin-bottom: auto;
+    width: 6em;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+/* End Main Body 
+================================= */
+
+
+/* End Footer 
+================================= */
+.bottom-nav {
+    background-color: #01ACE2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    font-family: Vollkorn;
+    list-style-type: none;
+    text-align: center;
+    font-size: .75em;
+}
+/* End Footer 
+================================= */

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>James Clavelli's Portfolio</title>
+    <!--<link rel ="stylesheet" href="/css/normalize.css"-->
+    <link rel="stylesheet" href="C:\Users\James Clavelli\Desktop\portfolio-page\style.css">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'></head>
+    <link href="C:\Users\James Clavelli\Desktop\portfolio-page\css\lightbox.css" rel="stylesheet">
+    <!--JaveScript Source-->
+    <script type="text/javascript" src="C:\Users\James Clavelli\Desktop\portfolio-page\javascript\mainmenu.js"></script>
+    <script type="text/javascript" src="C:\Users\James Clavelli\Desktop\portfolio-page\jquery\jquery-1.12.1.js"></script>
+<body>
+
+    <!--begin main wrapper -->
+    <div class="main-wrapper">
+
+        <!-- Begin top navigation -->
+        <nav id="men-nav-bar">
+        <ul id="menunav">
+            <li><a href="#" onmouseover="menu_open('menu1')" onmouseout="close_time()">About Me</a>
+            <div id="menu1" onmouseover="cancelclose_time()" onmouseout="close_time()">
+                <a href="#">My Story</a>
+                <a href="#">Coding Blog</a>
+                <a href="#">Contact Page</a>
+            </div>
+            </li>
+            <li><a href="#" onmouseover="menu_open('menu2')" onmouseout="close_time()">Portfolio</a>
+                <div id="menu2" onmouseover="cancelclose_time()" onmouseout="close_time()">
+                <a href="#">Finished Projects</a>
+                <a href="#">Works in Progress</a>
+                <a href="#">Completed Tech Academy Assignments</a>
+                </div>
+            </li>
+            <li><a href="#" onmouseover="menu_open('menu3')" onmouseout="close_time()">Contact</a>
+                <div id="menu3" onmouseover="cancelclose_time()" onmouseout="close_time()">
+                <a href="#">Contact Information</a>
+                <a href="#">Github</a>
+                <a href="#">LinkedIn</a>       
+                </div>
+            </li>
+        </ul>
+        <div style="clear:both"></div>
+        </nav>
+        <!-- End top navigation-->  
+    
+<!-- Begin bg image -->
+<div class="main-bg">
+    <h1>James Clavelli</h1>
+    <h2>Software Developer</h2>
+    <a class="thumbnailhover" rel="lightbox" href="C:\Users\James Clavelli\Desktop\portfolio-page\images\road.jpg"><img class="road" src="C:\Users\jclavelli89\Desktop\Portfolio-Page\Images\road.jpg">The Road</a>
+</div>
+<!-- End bg image -->    
+
+<!-- End main wrapper -->    
+</div>
+
+<!-- begin bottom navigation -->
+<nav class="bottom-nav">
+    <ul>
+        <li>Copyright &copy; 2016 - James Clavelli</li>
+    </ul>
+</nav>
+
+    <script src="C:\Users\James Clavelli\Desktop\portfolio-page\javascript\lightbox.js"></script>
+</body>
+</html>
